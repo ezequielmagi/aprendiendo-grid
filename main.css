@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #f3f1f1;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.grilla-principal{
+    width: 800px;
+    height: 600px;
+    background-color: coral;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 19px;
+    align-items: center;
+    justify-content: center;
+}
+
+.celda{
+    border: 1px solid;
+    width: 200px;
+    height: 150px;
+    background: steelblue;
+}
+
